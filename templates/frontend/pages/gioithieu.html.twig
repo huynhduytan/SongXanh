@@ -1,0 +1,42 @@
+{# Kế thừa layout frontend #}
+{% extends "frontend/layouts/layout.html.twig" %}
+
+{# Nội dung trong block title #}
+{% block title %}
+Liên hệ
+{% endblock %}
+{# End Nội dung trong block title #}
+
+{# Nội dung trong block headline #}
+{% block headline %}
+Liên hệ
+{% endblock %}
+{# End Nội dung trong block headline #}
+
+{# Nội dung trong block content #}
+{% block content %}
+<div class="container mt-2">
+    <h1 class="text-center">Sóng Xanh - Nơi cung cấp sản phẩm lành sạch</h1>
+    <div class="row">
+        <div class="col col-md-12">
+            <h5 class="text-center"></h5>
+            <h5 class="text-center"></h5>
+            <div class="text-center">
+                <a href=" class="btn btn-primary btn-lg">fb <i class="fa fa-forward"
+                        aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col col-md-12">
+            <iframe
+                src="" // dẫn link map
+                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{# End Nội dung trong block content #}
+
+{% block customscripts %}
+{% endblock %}
